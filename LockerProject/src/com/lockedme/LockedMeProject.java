@@ -9,7 +9,7 @@ public class LockedMeProject {
 	
 		static final String folderpath = "/home/saichelluriredi/Phase1_Project";
 	
-/**
+/** Main that Method that displays menu
  * 
  * @param args
  */
@@ -19,6 +19,7 @@ public class LockedMeProject {
 		Scanner obj = new Scanner(System.in);
 		char choice;
 		int ch;
+// Use the Do and While loop to allow the Menu to be displayed again
 		do {
 			
 			
@@ -123,7 +124,7 @@ System.out.println("File deleted Successfully");
 else
 System.out.println("Either File not there or some access issue");
  }
- 
+ git 
  public static void searchFile()
  {		
 		String fileName;
