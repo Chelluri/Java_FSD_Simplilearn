@@ -9,7 +9,7 @@ public class LockedMeProject {
 	
 		static final String folderpath = "/home/saichelluriredi/Phase1_Project";
 	
-/** Main that Method that displays menu
+/** Main Method that displays menu
  * 
  * @param args
  */
@@ -23,7 +23,7 @@ public class LockedMeProject {
 		do {
 			
 			
-	// Display Menu
+	// Display Menu gives options to the user to select a particular option. Once the option is selected it calls the associated method.
 		
 		displayMenu();
 		System.out.println("Enter your Choice :");
@@ -54,7 +54,9 @@ public class LockedMeProject {
 		obj.close();
 					}
 		// TODO Auto-generated method stub
-	
+	/** Display Method Prints the options to the screen for the user to select
+	 * 
+	 */
 	public static void displayMenu()
 	{
 		System.out.println("****************************************************");
@@ -124,8 +126,7 @@ System.out.println("File deleted Successfully");
 else
 System.out.println("Either File not there or some access issue");
  }
- git 
- public static void searchFile()
+  public static void searchFile()
  {		
 		String fileName;
 		Scanner obj = new Scanner(System.in);
