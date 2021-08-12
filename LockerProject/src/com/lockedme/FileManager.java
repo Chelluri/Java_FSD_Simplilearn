@@ -6,7 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileManager {
-	/**
+	/** 
+	 * The ArraList is used to take the folderpath and list all the files in the folderpath
 	 * 
 	 * @param folderpath
 	 * @return
@@ -32,7 +33,14 @@ public class FileManager {
 		return filenames;
 
 		}
-		 
+/**
+ * This method takes the folderpath, Filename and no of lines of content to be written in a file. Once the contents are appended to the file. The file will be saved in the folder.
+ * 		 
+ * @param folderpath
+ * @param fileName
+ * @param content
+ * @return
+ */
 		 
 			public static boolean createFileAndWrite(String folderpath, String fileName, List<String> content)
 			{
