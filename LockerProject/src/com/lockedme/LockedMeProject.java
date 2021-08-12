@@ -70,6 +70,9 @@ public class LockedMeProject {
 		System.out.println("****************************************************");
 			
 	}
+	/** GetAllFiles Method gives the option to the reader to list all the files in a directory
+	 * 
+	 */
 		
 	public static void getAllFiles()
 		{
@@ -81,7 +84,9 @@ for(String f:fileNames)
 System.out.println(f);
 	}
 
-	
+	/** This method gives option to the reader to create a file in a directory and write in it
+	 * 
+	 */
  public static void createAndWritefiles()
 {
 // Variable Declaration
@@ -126,7 +131,8 @@ System.out.println("File deleted Successfully");
 else
 System.out.println("Either File not there or some access issue");
  }
-  public static void searchFile()
+ 
+ public static void searchFile()
  {		
 		String fileName;
 		Scanner obj = new Scanner(System.in);
