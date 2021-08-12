@@ -131,7 +131,9 @@ System.out.println("File deleted Successfully");
 else
 System.out.println("Either File not there or some access issue");
  }
- 
+/**This Method asks the user to provide an option to search a file and searches the file from the directory
+ *  
+ */
  public static void searchFile()
  {		
 		String fileName;
