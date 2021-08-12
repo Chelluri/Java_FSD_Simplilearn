@@ -60,7 +60,8 @@ public class LockedMeProject {
 	public static void displayMenu()
 	{
 		System.out.println("****************************************************");
-		System.out.println("\t\t Company Lockers Pvt. Ltd");
+		System.out.println("\t Welcome to Company Lockers Pvt. Ltd");
+		System.out.println("\t Developed by Jayendra Sai Ch");
 		System.out.println("****************************************************");
 		System.out.println("1. Display All Files");
 		System.out.println("2. Add New File");
